@@ -9,6 +9,8 @@ namespace Blog2.Models
         public string Slug { get; set; }
         public DateTime CreateDate { get; set; }
         public DateTime LastUpdateDate { get; set; }
+
+        // Relations
         public Category Category { get; set; }
         public User Author { get; set; }
         public List<Tag> Tags { get; set; }
